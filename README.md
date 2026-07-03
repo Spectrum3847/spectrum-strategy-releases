@@ -22,17 +22,11 @@ In AltStore or SideStore, open Sources, add a source, and paste one of these URL
   https://frcspectrumstrategy-nightly.web.app/nightly.json
   ```
 
-After adding the source, Spectrum Strategy appears in the installer and you can
+After adding the source, Spectrum Strategy appears and you can
 install it. New builds show up as updates automatically.
 
-The stable source goes live with the first published release. The nightly source
-is updated on every nightly build.
-
-## Install guide
-
-For a step by step walkthrough, including how to set up SideStore, see the guide
-in the main repository:
-[docs/sidestore-install.md](https://github.com/Spectrum3847/SpectrumStrategy/blob/master/docs/sidestore-install.md).
+The stable source updated with every release. The nightly source
+is updated every night.
 
 ## How it works
 
@@ -42,5 +36,4 @@ in the main repository:
 - The installer re-signs the IPA on device with your free Apple ID. Free signing
   lasts 7 days, so let AltStore or SideStore refresh the app weekly to keep it
   working.
-
-See `docs/altstore.md` in the main repository for the full distribution design.
+  
